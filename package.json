@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "precommit": "node-git-hooks",
-    "build": "tsc",
+    "build": "npx tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
@@ -34,6 +34,7 @@
     "jest": "^29.7.0",
     "node-git-hooks": "^1.0.7",
     "prettier": "^3.5.3",
+    "semantic-release": "^24.2.3",
     "ts-jest": "^29.3.1",
     "tsc": "^2.0.4",
     "typescript": "^5.8.2"
@@ -57,5 +58,34 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer"
+      ],
+      [
+        "@semantic-release/release-notes-generator"
+      ],
+      [
+        "@semantic-release/changelog"
+      ],
+      [
+        "@semantic-release/npm"
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): 🚀 ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
   }
 }

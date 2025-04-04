@@ -2,14 +2,14 @@
   "name": "lib-commons-js",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "precommit": "node-git-hooks",
-    "build": "npx tsc",
+    "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
@@ -25,9 +25,6 @@
     "url": "https://github.com/LerianStudio/lib-commons-js/issues"
   },
   "homepage": "https://github.com/LerianStudio/lib-commons-js#readme",
-  "dependencies": {
-    "typescript": "^5.8.2"
-  },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.14.0",
@@ -39,7 +36,7 @@
     "prettier": "^3.5.3",
     "semantic-release": "^24.2.3",
     "ts-jest": "^29.3.1",
-    "tsc": "^2.0.4"
+    "typescript": "^5.8.2"
   },
   "jest": {
     "moduleFileExtensions": [

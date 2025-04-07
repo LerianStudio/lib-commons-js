@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.2.0...v1.3.0) (2025-04-07)
+
+
+### Features
+
+* organize .releaserc.yml on YAML file ([46c88d4](https://github.com/LerianStudio/lib-commons-js/commit/46c88d4ca0a933805b174179405169d6364d66d1))
+
 # [1.3.0-alpha.1](https://github.com/LerianStudio/lib-commons-js/compare/v1.2.0...v1.3.0-alpha.1) (2025-04-07)
 
 

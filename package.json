@@ -67,7 +67,8 @@
   },
   "release": {
     "branches": [
-      "main"
+      "main",
+      "feature/implement-publish-step"
     ],
     "plugins": [
       [

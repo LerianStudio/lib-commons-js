@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.0.0...v1.1.0) (2025-04-07)
+
+
+### Features
+
+* create version using semantic release ([3a415d5](https://github.com/LerianStudio/lib-commons-js/commit/3a415d55dcffbd4df777ea16f81ea90e08ac2a4b))
+
 # 1.0.0 (2025-04-07)
 
 

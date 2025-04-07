@@ -42,6 +42,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '22'
+          
 # Create file to authenticate to npm
       - name: Configure npm authentication
         run: |
@@ -55,12 +56,6 @@ jobs:
 
       - name: Build package
         run: npm run build
-
-      # # 👉 Manual publish step (bypass Semantic Release)
-      # - name: Publish package manually
-      #   run: npm publish --access public
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 # Execute Semantic Release and Publish
       - name: Run Semantic Release

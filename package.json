@@ -1,12 +1,15 @@
 {
-  "name": "lib-commons-js",
-  "version": "1.0.0",
+  "name": "@lerian/lib-commons-js",
+  "version": "1.3.0-alpha.1",
   "description": "",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precommit": "node-git-hooks",
     "build": "tsc",
@@ -19,7 +22,11 @@
     "type": "git",
     "url": "git+https://github.com/LerianStudio/lib-commons-js.git"
   },
-  "author": "",
+  "author": {
+    "name": "Lerian Studio",
+    "email": "contato@lerian.studio",
+    "url": "https://lerian.studio"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LerianStudio/lib-commons-js/issues"
@@ -58,33 +65,5 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer"
-      ],
-      [
-        "@semantic-release/release-notes-generator"
-      ],
-      [
-        "@semantic-release/changelog"
-      ],
-      [
-        "@semantic-release/npm"
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): 🚀 ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  }
+  "dependencies": {}
 }

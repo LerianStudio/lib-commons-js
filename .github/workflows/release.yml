@@ -42,7 +42,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '22'
-
+# Create file to authenticate to npm
       - name: Configure npm authentication
         run: |
           echo "@lerian:registry=https://registry.npmjs.org/" >> ~/.npmrc

@@ -1,5 +1,5 @@
 {
-  "name": "lib-commons-js",
+  "name": "@lerian/lib-commons-js",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",

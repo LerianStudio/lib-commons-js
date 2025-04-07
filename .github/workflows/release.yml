@@ -48,7 +48,7 @@ jobs:
 
       - name: Build package
         run: npm run build
-
+# Execute Semantic Release and Publish
       - name: Run Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         with:

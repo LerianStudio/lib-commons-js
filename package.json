@@ -1,5 +1,5 @@
 {
-  "name": "lib-commons-js",
+  "name": "@lerianstudio/lib-commons-js",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "precommit": "node-git-hooks",
     "build": "tsc",
@@ -19,7 +22,11 @@
     "type": "git",
     "url": "git+https://github.com/LerianStudio/lib-commons-js.git"
   },
-  "author": "",
+  "author": {
+    "name": "Lerian Studio",
+    "email": "contato@lerian.studio",
+    "url": "https://lerian.studio"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LerianStudio/lib-commons-js/issues"

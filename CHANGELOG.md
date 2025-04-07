@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.1.0...v1.2.0) (2025-04-07)
+
+
+### Features
+
+* organize releaserc on N parts ([bb51e9e](https://github.com/LerianStudio/lib-commons-js/commit/bb51e9ea68a368311c111e81c1ac7bc0cc1ba4d4))
+
 # [1.1.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.0.0...v1.1.0) (2025-04-07)
 
 

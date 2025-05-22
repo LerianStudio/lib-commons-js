@@ -160,7 +160,7 @@ describe('findScale and undoScale integration', () => {
     expect(originalValue).toBe(value);
   });
 
-  it('should handle the 0.0000017 case corretly', () => {
+  it('should handle the 0.0000017 case correctly', () => {
     const asset = 'USD';
     const value = 0.0000017;
 

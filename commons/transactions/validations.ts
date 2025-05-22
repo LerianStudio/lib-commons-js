@@ -30,9 +30,9 @@ export function undoScale(value: number, scale: number): number {
 /**
  * Function to undo the scale calculations using Decimal.js
  *
- * @param value
- * @param scale
- * @returns
+ * @param value - The numeric value to be scaled.
+ * @param scale - The scale factor to apply.
+ * @returns The scaled result as a Decimal.
  */
 export function undoScaleDecimal(value: number, scale: number): Decimal {
   return new Decimal(value).mul(new Decimal(10).pow(scale));

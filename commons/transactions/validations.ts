@@ -81,6 +81,9 @@ export function findScale(
   }
 
   const value = typeof v === 'number' ? v : parseFloat(v);
+  if (isNaN(value)) {
+    throw new Error(`findScale: Invalid value provided: ${v}`);
+  }
   const valueString = typeof v === 'number' ? v.toString() : v;
   const parts = valueString.split('.');
 

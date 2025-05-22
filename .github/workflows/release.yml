@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
-      - feature/*
+      - develop
+      - feature/**
+      - release/**
+      - hotfix/**
 
 permissions:
   id-token: write

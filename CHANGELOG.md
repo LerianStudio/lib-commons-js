@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.3.0...v1.4.0) (2025-05-22)
+
+
+### Features
+
+* Added new methods ([03ef346](https://github.com/LerianStudio/lib-commons-js/commit/03ef346ddb87dbb7426f3b88ffb1aa8345c65174))
+
 # [1.3.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.2.0...v1.3.0) (2025-04-07)
 
 

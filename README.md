@@ -16,7 +16,7 @@ This is a port of [lib-commons](https://github.com/LerianStudio/lib-commons)
 ### Installation
 
 ```bash
-npm install lib-commons-js
+npm install @lerian/lib-commons-js
 ```
 
 ## Contributing

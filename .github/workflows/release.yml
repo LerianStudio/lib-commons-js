@@ -1,4 +1,4 @@
-name: release
+name: 🚀 Release & Publish
 
 on:
   push:
@@ -8,6 +8,16 @@ on:
       - feature/**
       - release/**
       - hotfix/**
+      - feat/**
+    paths-ignore:
+      - '.gitignore'
+      - '**/*.env'
+      - '*.env'
+      - '**/*.md'
+      - '*.md'
+      - '**/*.txt'
+      - '*.txt'
+    tags-ignore: ['**']
 
 permissions:
   id-token: write
@@ -63,20 +73,34 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: Configure npm authentication
+        run: |
+          echo "@lerianstudio:registry=https://registry.npmjs.org/" >> ~/.npmrc
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Install dependencies
         run: npm ci
 
       - name: Build package
         run: npm run build
 
+      - name: Install missing plugin @semantic-release/exec
+        run: npm install --save-dev @semantic-release/exec
+      
+      - name: Install semantic-release plugin @semantic-release/npm
+        run: npm install --save-dev @semantic-release/npm
+
       - name: Run Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         with:
           ci: false
-          semantic_version: 24.2.3
+          semantic_version: 23.0.8
           extra_plugins: |
             conventional-changelog-conventionalcommits@v7.0.2
             @saithodev/semantic-release-backmerge
+            @semantic-release/git
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

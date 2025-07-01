@@ -1,3 +1,25 @@
+## [v1.5.0] - 2025-07-01
+
+This release enhances security and streamlines the publishing process for NPM libraries, ensuring a more secure and efficient experience for developers and users.
+
+### ✨ Features  
+- **Authentication for NPM Repository**: Introduced authentication to ensure only authorized users can publish packages. This boosts security and maintains the integrity of the package distribution process, aligning with industry best practices.
+  
+- **Standardized NPM Library Template**: A new template for publishing NPM libraries has been introduced. This standardization simplifies the release process, providing a consistent and predictable experience for developers and users interacting with published libraries.
+
+### 🔄 Changes
+- **Release Workflow Standardization**: The publish release workflow has been standardized to improve efficiency and reduce errors. This ensures a smoother deployment pipeline, minimizing downtime and guaranteeing timely updates.
+
+### 📚 Documentation
+- **README Update**: The README.md file has been updated to reflect the latest changes and improvements, offering clearer guidance and up-to-date information for users and contributors.
+
+### 🔧 Maintenance
+- **Dependency Updates**: All project dependencies have been updated to their latest versions. This proactive maintenance enhances compatibility, leverages the latest features, and ensures security patches are applied, improving overall system stability.
+  
+- **Changelog Revision**: The CHANGELOG has been revised to include recent updates and improvements, providing users with a comprehensive overview of changes in this release.
+
+**Note**: No breaking changes were identified in this release. All updates are backward-compatible, ensuring a seamless transition for users upgrading to the latest version.
+
 
 ## [v1.3.0-beta.2] - 2025-07-01
 

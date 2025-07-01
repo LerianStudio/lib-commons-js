@@ -1,25 +1,53 @@
+plugins:
+  - path: "@semantic-release/commit-analyzer"
+    preset: conventionalcommits
+    parserOpts:
+      noteKeywords:
+        - "BREAKING CHANGE"
+        - "BREAKING CHANGES"
+    releaseRules:
+      - type: feat
+        release: minor
+      - type: perf
+        release: minor
+      - type: build
+        release: minor
+      - type: chore
+        release: patch
+      - type: ci
+        release: patch
+      - type: test
+        release: patch
+      - type: fix
+        release: patch
+      - type: refactor
+        release: minor
+      - type: docs
+        release: patch
+      - breaking: true
+        release: major
+
+  - path: "@semantic-release/git"
+    assets:
+      - CHANGELOG.md
+    message: "chore(release): ${nextRelease.version}\n\nChangelog atualizado."
+
+  - path: "@semantic-release/github"
+    assets:
+      - path: CHANGELOG.md
+        label: "Changelog"
+    successComment: false
+    failComment: false
+    labels: []
+  
+  - path: "@semantic-release/npm"  # 👈 Publish package on NPM
+
+  - path: "@semantic-release/exec"
+
 branches:
-  - main
+  - name: main
   - name: develop
     prerelease: beta
-  - name: feature/*
-    prerelease: alpha
-  - name: release/*
-    prerelease: rc
   - name: hotfix/*
-    prerelease: hf
-
-plugins:
-  - "@semantic-release/commit-analyzer"
-  - "@semantic-release/release-notes-generator"
-  - "@semantic-release/changelog"
-  - "@semantic-release/npm"
-  - 
-    - "@semantic-release/git"
-    - assets:
-        - package.json
-        - CHANGELOG.md
-      message: |
-        chore(release): 🚀 ${nextRelease.version} [skip ci]
-
-        ${nextRelease.notes}
+    prerelease: false
+    channel: false

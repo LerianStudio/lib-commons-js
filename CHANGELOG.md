@@ -1,3 +1,15 @@
+## [v1.6.0] - 2025-07-01
+
+This release introduces a significant enhancement to package management, allowing for greater flexibility and customization in project environments.
+
+### ✨ Features  
+- **Customizable Package Naming**: You can now configure the package name for the npm repository. This feature enhances integration with various project environments, making package management more efficient and tailored to your specific needs. This customization helps streamline workflows and ensures compatibility with diverse naming conventions.
+
+### 🔧 Maintenance
+- **Changelog Updates**: We've updated the changelog to ensure you have access to the latest information about the software's evolution. This commitment to documentation helps you stay informed about new features and improvements, enhancing your overall experience with the software.
+
+This changelog focuses on the key feature introduced in this release, highlighting its benefits and practical applications for users. The maintenance section underscores the importance of keeping documentation up-to-date, reflecting a commitment to transparency and user support.
+
 
 ## [v1.5.0-beta.2] - 2025-07-01
 

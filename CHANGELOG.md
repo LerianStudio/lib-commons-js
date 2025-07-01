@@ -1,3 +1,23 @@
+## [v1.5.0-beta.1] - 2025-07-01
+
+This release of lib-commons-js introduces significant enhancements to the library's capabilities, focusing on improving development efficiency, security, and overall performance. Users will benefit from a more robust and reliable experience.
+
+### ✨ Features
+- **Enhanced Integration Tools**: New methods have been added to the library, boosting functionality and integration capabilities. These tools streamline application development and testing, making it easier and faster for developers to build robust applications.
+
+### ⚡ Performance
+- **Optimized Build Process**: Updates to the build system and dependency management have been implemented, resulting in improved application performance and reliability. Users will experience smoother operations and reduced load times.
+- **Improved Authentication Security**: The transaction validation logic has been refined, enhancing security and accuracy in authentication processes. This reduces the risk of errors and builds greater trust in transaction handling.
+
+### 📚 Documentation
+- **Updated Onboarding Guidance**: The README has been revised to provide clearer instructions and support for new users. This improvement helps users quickly understand and implement the library's features effectively.
+
+### 🔧 Maintenance
+- **Routine System Updates**: Regular updates to the build system and dependencies ensure compatibility with the latest standards, enhancing codebase maintainability.
+- **Comprehensive Test Coverage**: Test cases for transaction validations have been refined, ensuring thorough coverage and reliability in the authentication component, supporting ongoing quality assurance.
+
+Overall, this release enhances the library's functionality, performance, and security, providing users with a more efficient and reliable development experience.
+
 
 ## [v1.3.0-beta.2] - 2025-07-01
 

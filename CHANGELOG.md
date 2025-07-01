@@ -1,3 +1,18 @@
+## [v1.5.0-beta.2] - 2025-07-01
+
+This release introduces enhanced package management capabilities and ensures up-to-date documentation for improved transparency and user experience.
+
+### ✨ Features  
+- **Configurable Package Naming on npm**: You can now customize the package name when publishing to the npm repository. This feature provides greater flexibility and helps in managing multiple packages efficiently, especially for developers adhering to specific naming conventions.
+
+### 📚 Documentation
+- **Updated Changelog**: The changelog has been refreshed to include the latest changes and improvements. This ensures that users have a clear and comprehensive history of the project's evolution, enhancing transparency and aiding in tracking the software's progress.
+
+### 🔧 Maintenance
+- **General Maintenance**: Routine updates and behind-the-scenes improvements have been made to ensure the software remains robust and reliable. These changes support ongoing stability and performance enhancements.
+
+This changelog is designed to communicate the most relevant changes in a user-friendly manner, focusing on the benefits and impacts of the new features and maintenance updates.
+
 ## [v1.5.0-beta.1] - 2025-07-01
 
 This release of lib-commons-js introduces significant enhancements to the library's capabilities, focusing on improving development efficiency, security, and overall performance. Users will benefit from a more robust and reliable experience.

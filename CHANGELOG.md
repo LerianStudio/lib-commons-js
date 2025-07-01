@@ -1,3 +1,4 @@
+
 ## [v1.3.0-beta.2] - 2025-07-01
 
 This release significantly enhances the security and reliability of the lib-commons-js library by introducing authentication for NPM publishing and standardizing the release workflow. These improvements ensure a more secure and streamlined experience for developers.
@@ -15,6 +16,15 @@ This release significantly enhances the security and reliability of the lib-comm
 These changes focus on enhancing security, standardizing processes, and modernizing the library's infrastructure, providing significant value to developers by improving reliability and ease of use.
 
 # [1.3.0-beta.1](https://github.com/LerianStudio/lib-commons-js/compare/v1.2.0...v1.3.0-beta.1) (2025-04-07)
+=======
+# [1.4.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.3.0...v1.4.0) (2025-05-22)
+
+
+### Features
+
+* Added new methods ([03ef346](https://github.com/LerianStudio/lib-commons-js/commit/03ef346ddb87dbb7426f3b88ffb1aa8345c65174))
+
+# [1.3.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.2.0...v1.3.0) (2025-04-07)
 
 
 ### Features

@@ -1,6 +1,6 @@
 {
-  "name": "@lerianstudio/lib-commons-js",
-  "version": "1.3.0-beta.1",
+  "name": "@lerian/lib-commons-js",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -65,5 +65,7 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "dependencies": {}
+  "dependencies": {
+    "decimal.js-light": "^2.5.1"
+  }
 }

@@ -66,6 +66,7 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "decimal.js-light": "^2.5.1"
+    "decimal.js-light": "^2.5.1",
+    "node-cache": "^5.1.2"
   }
 }

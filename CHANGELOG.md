@@ -1,3 +1,38 @@
+
+## [v1.6.0-beta.2] - 2025-07-03
+
+This release introduces significant enhancements in security and workflow management, alongside improvements in licensing and documentation. Users will experience a more secure and streamlined development process.
+
+### ✨ Features
+- **Authentication for NPM Hub**: We've added authentication requirements for accessing certain features on the NPM hub. This enhancement ensures that only authorized users can perform sensitive operations, significantly boosting security and protecting user data.
+
+### 🔄 Changes
+- **Workflow Management**: The backmerge flow has been disabled to simplify the development process. This change reduces workflow complexity, making it easier to manage feature branches and minimizing potential merge conflicts.
+
+### 🔧 Maintenance
+- **Licensing**: A new input license plugin has been integrated, making it easier to manage and apply licenses across projects. This improvement aids in compliance and ensures all projects meet licensing requirements effortlessly.
+- **Documentation Update**: The CHANGELOG has been updated to accurately reflect all recent changes and improvements, ensuring users and developers can easily track the project's evolution.
+
+No breaking changes were introduced in this release, ensuring full backward compatibility without requiring any user action for migration or adaptation.
+
+## [v1.6.0-beta.1] - 2025-07-03
+
+This release introduces a powerful new license management feature, enhancing security and compliance across the platform. With improved user interfaces and backend support, users can expect a seamless and secure experience.
+
+### ✨ Features
+- **License Management**: Implemented a comprehensive license validation system across the frontend, backend, and configuration. This ensures that users can easily validate their license keys, enhancing security and compliance. The new system provides clear guidance and feedback, making the process intuitive and user-friendly.
+
+### 🔄 Improvements
+- **Frontend Enhancements**: Updated the user interface to support the new license validation workflows. Users will notice improved feedback and guidance during the validation process, making it easier to ensure compliance.
+- **Backend Support**: Integrated robust backend mechanisms for license validation, ensuring efficient and secure checks. This enhancement supports the frontend improvements and maintains data integrity.
+- **Testing Expansion**: Increased test coverage to include the new license validation features, boosting system reliability and ensuring all functionalities perform as expected.
+
+### 🔧 Maintenance
+- **Dependencies Update**: Updated all project dependencies to their latest versions, improving compatibility and security. This ensures the system remains stable and benefits from the latest enhancements and patches from third-party libraries.
+- **Changelog Updates**: Regular updates to the CHANGELOG file to reflect recent changes and improvements, providing users with a clear and concise history of modifications.
+
+These updates collectively enhance the system's capabilities, particularly in license management, while maintaining stability and performance through regular maintenance and dependency updates. Users can expect a more secure and user-friendly experience with the new features and improvements.
+=======
 ## [v1.6.0] - 2025-07-01
 
 This release introduces a significant enhancement to package management, allowing for greater flexibility and customization in project environments.

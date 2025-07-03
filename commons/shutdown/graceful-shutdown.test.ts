@@ -1,10 +1,23 @@
 /**
  * Tests for GracefulShutdown class
- * Based on lib-commons (Go) shutdown test patterns
+ * Based on shutdown test patterns
  */
 
 import { GracefulShutdown, startServerWithGracefulShutdown } from './graceful-shutdown';
-import { Logger, LicenseClient, TelemetryProvider } from './types';
+import { Logger } from '../log';
+import { LicenseClient, TelemetryProvider } from './types';
+
+// Mock the SignalHandler to prevent actual signal registration
+jest.mock('./signal-handler', () => {
+  return {
+    SignalHandler: jest.fn().mockImplementation(() => ({
+      register: jest.fn(),
+      unregister: jest.fn(),
+      forceExit: jest.fn(),
+      isShutdownInProgress: jest.fn().mockReturnValue(false)
+    }))
+  };
+});
 
 describe('GracefulShutdown', () => {
   let mockLogger: Logger;
@@ -14,9 +27,22 @@ describe('GracefulShutdown', () => {
   beforeEach(() => {
     mockLogger = {
       info: jest.fn(),
-      warn: jest.fn(),
+      infof: jest.fn(),
+      infoln: jest.fn(),
       error: jest.fn(),
+      errorf: jest.fn(),
+      errorln: jest.fn(),
+      warn: jest.fn(),
+      warnf: jest.fn(),
+      warnln: jest.fn(),
       debug: jest.fn(),
+      debugf: jest.fn(),
+      debugln: jest.fn(),
+      fatal: jest.fn(),
+      fatalf: jest.fn(),
+      fatalln: jest.fn(),
+      withFields: jest.fn().mockReturnThis(),
+      withDefaultMessageTemplate: jest.fn().mockReturnThis(),
       sync: jest.fn().mockResolvedValue(undefined)
     };
 

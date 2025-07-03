@@ -1,13 +1,13 @@
 /**
  * Graceful shutdown orchestrator
- * Based on lib-commons (Go) graceful shutdown patterns
+ * Based on graceful shutdown patterns
  * Handles servers, license clients, telemetry, and custom handlers
  */
 
 import { SignalHandler } from './signal-handler';
 import { createServerAdapter } from './server-adapters';
+import { Logger } from '../log';
 import {
-  Logger,
   ShutdownHandler,
   ServerAdapter,
   LicenseClient,
@@ -285,10 +285,29 @@ export class GracefulShutdown {
    */
   private createDefaultLogger(): Logger {
     return {
-      info: (message: string, ...args: any[]) => console.log(`[INFO] ${message}`, ...args),
-      warn: (message: string, ...args: any[]) => console.warn(`[WARN] ${message}`, ...args),
-      error: (message: string, ...args: any[]) => console.error(`[ERROR] ${message}`, ...args),
-      debug: (message: string, ...args: any[]) => console.debug(`[DEBUG] ${message}`, ...args),
+      info: (...args: any[]) => console.log('[INFO]', ...args),
+      infof: (format: string, ...args: any[]) => console.log(`[INFO] ${format}`, ...args),
+      infoln: (...args: any[]) => console.log('[INFO]', ...args),
+
+      error: (...args: any[]) => console.error('[ERROR]', ...args),
+      errorf: (format: string, ...args: any[]) => console.error(`[ERROR] ${format}`, ...args),
+      errorln: (...args: any[]) => console.error('[ERROR]', ...args),
+
+      warn: (...args: any[]) => console.warn('[WARN]', ...args),
+      warnf: (format: string, ...args: any[]) => console.warn(`[WARN] ${format}`, ...args),
+      warnln: (...args: any[]) => console.warn('[WARN]', ...args),
+
+      debug: (...args: any[]) => console.debug('[DEBUG]', ...args),
+      debugf: (format: string, ...args: any[]) => console.debug(`[DEBUG] ${format}`, ...args),
+      debugln: (...args: any[]) => console.debug('[DEBUG]', ...args),
+
+      fatal: (...args: any[]) => console.error('[FATAL]', ...args),
+      fatalf: (format: string, ...args: any[]) => console.error(`[FATAL] ${format}`, ...args),
+      fatalln: (...args: any[]) => console.error('[FATAL]', ...args),
+
+      withFields: (..._fields: any[]) => this.createDefaultLogger(),
+      withDefaultMessageTemplate: (_message: string) => this.createDefaultLogger(),
+      sync: async () => Promise.resolve(),
     };
   }
 
@@ -302,7 +321,7 @@ export class GracefulShutdown {
 
 /**
  * Convenience function to start server with graceful shutdown
- * Based on lib-commons (Go) StartServerWithGracefulShutdown function
+ * Based on   StartServerWithGracefulShutdown function
  */
 export async function startServerWithGracefulShutdown(
   serverConfig: ServerRegistration,

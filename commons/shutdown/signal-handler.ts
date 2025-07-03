@@ -1,10 +1,10 @@
 /**
  * Signal handler for graceful shutdown
  * Handles SIGINT, SIGTERM, and uncaught exceptions
- * Based on lib-commons (Go) signal handling patterns
+ * Based on signal handling patterns
  */
 
-import { Logger } from './types';
+import { Logger } from '../log';
 
 export class SignalHandler {
   private logger: Logger;

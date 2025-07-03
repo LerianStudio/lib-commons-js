@@ -1,6 +1,6 @@
 /**
  * Validation utilities
- * Based on lib-commons (Go) validation functions
+ * Based on   validation functions
  */
 
 import { ValidationError, ValidationResult } from '../errors/types';

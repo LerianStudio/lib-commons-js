@@ -1,9 +1,9 @@
 /**
  * Types and interfaces for graceful shutdown functionality
- * Following the patterns from lib-commons (Go) shutdown module
+ * Following the patterns from shutdown module
  */
 
-import { Logger } from '../log/logger';
+import { Logger } from '../log';
 
 export { Logger };
 

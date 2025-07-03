@@ -40,6 +40,7 @@ plugins:
     failComment: false
     labels: []
 
+  - path: "@semantic-release/npm"
   - path: "@semantic-release/exec"
 
   - path: "@saithodev/semantic-release-backmerge"

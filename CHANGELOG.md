@@ -1,3 +1,19 @@
+## [v1.6.0-beta.2] - 2025-07-03
+
+This release introduces significant enhancements in security and workflow management, alongside improvements in licensing and documentation. Users will experience a more secure and streamlined development process.
+
+### ✨ Features
+- **Authentication for NPM Hub**: We've added authentication requirements for accessing certain features on the NPM hub. This enhancement ensures that only authorized users can perform sensitive operations, significantly boosting security and protecting user data.
+
+### 🔄 Changes
+- **Workflow Management**: The backmerge flow has been disabled to simplify the development process. This change reduces workflow complexity, making it easier to manage feature branches and minimizing potential merge conflicts.
+
+### 🔧 Maintenance
+- **Licensing**: A new input license plugin has been integrated, making it easier to manage and apply licenses across projects. This improvement aids in compliance and ensures all projects meet licensing requirements effortlessly.
+- **Documentation Update**: The CHANGELOG has been updated to accurately reflect all recent changes and improvements, ensuring users and developers can easily track the project's evolution.
+
+No breaking changes were introduced in this release, ensuring full backward compatibility without requiring any user action for migration or adaptation.
+
 ## [v1.6.0-beta.1] - 2025-07-03
 
 This release introduces a powerful new license management feature, enhancing security and compliance across the platform. With improved user interfaces and backend support, users can expect a seamless and secure experience.

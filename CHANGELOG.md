@@ -1,3 +1,80 @@
+
+## [v1.5.0-beta.2] - 2025-07-01
+
+This release introduces enhanced package management capabilities and ensures up-to-date documentation for improved transparency and user experience.
+
+### ✨ Features  
+- **Configurable Package Naming on npm**: You can now customize the package name when publishing to the npm repository. This feature provides greater flexibility and helps in managing multiple packages efficiently, especially for developers adhering to specific naming conventions.
+
+### 📚 Documentation
+- **Updated Changelog**: The changelog has been refreshed to include the latest changes and improvements. This ensures that users have a clear and comprehensive history of the project's evolution, enhancing transparency and aiding in tracking the software's progress.
+
+### 🔧 Maintenance
+- **General Maintenance**: Routine updates and behind-the-scenes improvements have been made to ensure the software remains robust and reliable. These changes support ongoing stability and performance enhancements.
+
+This changelog is designed to communicate the most relevant changes in a user-friendly manner, focusing on the benefits and impacts of the new features and maintenance updates.
+
+## [v1.5.0-beta.1] - 2025-07-01
+
+This release of lib-commons-js introduces significant enhancements to the library's capabilities, focusing on improving development efficiency, security, and overall performance. Users will benefit from a more robust and reliable experience.
+
+### ✨ Features
+- **Enhanced Integration Tools**: New methods have been added to the library, boosting functionality and integration capabilities. These tools streamline application development and testing, making it easier and faster for developers to build robust applications.
+
+### ⚡ Performance
+- **Optimized Build Process**: Updates to the build system and dependency management have been implemented, resulting in improved application performance and reliability. Users will experience smoother operations and reduced load times.
+- **Improved Authentication Security**: The transaction validation logic has been refined, enhancing security and accuracy in authentication processes. This reduces the risk of errors and builds greater trust in transaction handling.
+
+### 📚 Documentation
+- **Updated Onboarding Guidance**: The README has been revised to provide clearer instructions and support for new users. This improvement helps users quickly understand and implement the library's features effectively.
+
+### 🔧 Maintenance
+- **Routine System Updates**: Regular updates to the build system and dependencies ensure compatibility with the latest standards, enhancing codebase maintainability.
+- **Comprehensive Test Coverage**: Test cases for transaction validations have been refined, ensuring thorough coverage and reliability in the authentication component, supporting ongoing quality assurance.
+
+Overall, this release enhances the library's functionality, performance, and security, providing users with a more efficient and reliable development experience.
+=======
+## [v1.5.0] - 2025-07-01
+
+This release enhances security and streamlines the publishing process for NPM libraries, ensuring a more secure and efficient experience for developers and users.
+
+### ✨ Features  
+- **Authentication for NPM Repository**: Introduced authentication to ensure only authorized users can publish packages. This boosts security and maintains the integrity of the package distribution process, aligning with industry best practices.
+  
+- **Standardized NPM Library Template**: A new template for publishing NPM libraries has been introduced. This standardization simplifies the release process, providing a consistent and predictable experience for developers and users interacting with published libraries.
+
+### 🔄 Changes
+- **Release Workflow Standardization**: The publish release workflow has been standardized to improve efficiency and reduce errors. This ensures a smoother deployment pipeline, minimizing downtime and guaranteeing timely updates.
+
+### 📚 Documentation
+- **README Update**: The README.md file has been updated to reflect the latest changes and improvements, offering clearer guidance and up-to-date information for users and contributors.
+
+### 🔧 Maintenance
+- **Dependency Updates**: All project dependencies have been updated to their latest versions. This proactive maintenance enhances compatibility, leverages the latest features, and ensures security patches are applied, improving overall system stability.
+  
+- **Changelog Revision**: The CHANGELOG has been revised to include recent updates and improvements, providing users with a comprehensive overview of changes in this release.
+
+**Note**: No breaking changes were identified in this release. All updates are backward-compatible, ensuring a seamless transition for users upgrading to the latest version.
+
+
+## [v1.3.0-beta.2] - 2025-07-01
+
+This release significantly enhances the security and reliability of the lib-commons-js library by introducing authentication for NPM publishing and standardizing the release workflow. These improvements ensure a more secure and streamlined experience for developers.
+
+### ✨ Features  
+- **Enhanced Security with NPM Authentication**: We've implemented authentication for the NPM repository, ensuring that only authorized users can publish packages. This change protects the integrity of the library distribution process, offering peace of mind to developers by safeguarding against unauthorized access.
+
+### 🔄 Changes
+- **Standardized Release Workflow**: The process for deploying new versions of the library has been standardized, reducing the potential for errors and ensuring consistency in version management. This streamlines the release process, making it easier and more reliable for developers to manage updates.
+- **Modernized Publishing Configuration**: The library now uses a new template for publishing NPM libraries, aligning with modern standards. This update enhances the consistency and reliability of package distribution, ensuring seamless integration with frontend components and improving the overall developer experience.
+
+### 🔧 Maintenance
+- **Dependency Updates**: We've updated several dependencies to support the new authentication and publishing configurations. These updates ensure compatibility with the latest security and performance standards, maintaining the library's reliability and efficiency.
+
+These changes focus on enhancing security, standardizing processes, and modernizing the library's infrastructure, providing significant value to developers by improving reliability and ease of use.
+
+# [1.3.0-beta.1](https://github.com/LerianStudio/lib-commons-js/compare/v1.2.0...v1.3.0-beta.1) (2025-04-07)
+=======
 # [1.4.0](https://github.com/LerianStudio/lib-commons-js/compare/v1.3.0...v1.4.0) (2025-05-22)
 
 

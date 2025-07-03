@@ -114,8 +114,10 @@
     "node_modules",
     "dist",
     "test",
+    "temp_excluded",
     "**/*.spec.ts",
     "**/*.test.ts",
+    "**/*_test.ts",
     "**/*.stories.tsx",
     "**/*.stories.ts"
   ]

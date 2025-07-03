@@ -169,9 +169,15 @@ describe('GracefulShutdown', () => {
     it('should execute handlers in priority order', async () => {
       const calls: string[] = [];
       
-      const handler1 = jest.fn(() => calls.push('handler1'));
-      const handler2 = jest.fn(() => calls.push('handler2'));
-      const handler3 = jest.fn(() => calls.push('handler3'));
+      const handler1 = jest.fn((): void => {
+        calls.push('handler1');
+      });
+      const handler2 = jest.fn((): void => {
+        calls.push('handler2');
+      });
+      const handler3 = jest.fn((): void => {
+        calls.push('handler3');
+      });
 
       gs.registerHandler('high-priority', handler1, 10);
       gs.registerHandler('low-priority', handler3, 30);

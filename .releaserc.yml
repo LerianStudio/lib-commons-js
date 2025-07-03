@@ -43,12 +43,12 @@ plugins:
   - path: "@semantic-release/npm"
   - path: "@semantic-release/exec"
 
-  - path: "@saithodev/semantic-release-backmerge"
-    backmergeBranches:
-      - from: main
-        to: develop
-    strategy: merge
-    message: "chore(release): Preparations for next release [skip ci]"
+  # - path: "@saithodev/semantic-release-backmerge"
+  #   backmergeBranches:
+  #     - from: main
+  #       to: develop
+  #   strategy: merge
+  #   message: "chore(release): Preparations for next release [skip ci]"
 
 branches:
   - name: main

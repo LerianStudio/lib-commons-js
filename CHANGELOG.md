@@ -1,3 +1,22 @@
+## [v1.7.0] - 2025-07-03
+
+This release introduces significant enhancements to security and license management, ensuring a more secure and compliant user experience.
+
+### ✨ Features  
+- **NPM Hub Authentication**: We've added robust authentication to our package management system, enhancing security by ensuring that only authorized users can access and manage packages. This feature protects your projects from unauthorized access and potential security breaches.
+  
+- **License Management**: A comprehensive license validation system is now in place. Users can easily input and validate license keys across the platform, ensuring compliance with software usage policies. This update spans the frontend and backend, providing a seamless experience.
+
+### 🔄 Changes
+- **License Validation Improvements**: We've streamlined the process of managing licenses in both the configuration and frontend components, making it more intuitive and user-friendly. This change simplifies compliance management and reduces administrative overhead.
+
+### 🔧 Maintenance
+- **Backmerge Flow Disabled**: To streamline our development process, we've disabled the backmerge flow. This change reduces complexity and accelerates our deployment cycles, ultimately delivering updates to you more efficiently.
+
+- **Changelog Updates**: Regular updates to the changelog ensure you have access to the latest information about software changes and improvements, keeping you informed about the evolution of our platform.
+
+This release focuses on enhancing security and compliance while improving the overall user experience. We are committed to providing a reliable and secure environment for all your development needs.
+
 
 ## [v1.6.0-beta.2] - 2025-07-03
 

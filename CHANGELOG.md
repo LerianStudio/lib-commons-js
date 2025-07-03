@@ -1,3 +1,21 @@
+## [v1.6.0-beta.1] - 2025-07-03
+
+This release introduces a powerful new license management feature, enhancing security and compliance across the platform. With improved user interfaces and backend support, users can expect a seamless and secure experience.
+
+### ✨ Features
+- **License Management**: Implemented a comprehensive license validation system across the frontend, backend, and configuration. This ensures that users can easily validate their license keys, enhancing security and compliance. The new system provides clear guidance and feedback, making the process intuitive and user-friendly.
+
+### 🔄 Improvements
+- **Frontend Enhancements**: Updated the user interface to support the new license validation workflows. Users will notice improved feedback and guidance during the validation process, making it easier to ensure compliance.
+- **Backend Support**: Integrated robust backend mechanisms for license validation, ensuring efficient and secure checks. This enhancement supports the frontend improvements and maintains data integrity.
+- **Testing Expansion**: Increased test coverage to include the new license validation features, boosting system reliability and ensuring all functionalities perform as expected.
+
+### 🔧 Maintenance
+- **Dependencies Update**: Updated all project dependencies to their latest versions, improving compatibility and security. This ensures the system remains stable and benefits from the latest enhancements and patches from third-party libraries.
+- **Changelog Updates**: Regular updates to the CHANGELOG file to reflect recent changes and improvements, providing users with a clear and concise history of modifications.
+
+These updates collectively enhance the system's capabilities, particularly in license management, while maintaining stability and performance through regular maintenance and dependency updates. Users can expect a more secure and user-friendly experience with the new features and improvements.
+
 
 ## [v1.5.0-beta.2] - 2025-07-01
 

@@ -6,6 +6,7 @@
 
 // Main modules
 export * from './cache';
+export * from './errors';
 export * from './http';
 export * from './log';
 export * from './shutdown';

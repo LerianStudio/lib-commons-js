@@ -1,3 +1,15 @@
+## [v1.8.1] - 2025-09-04
+
+[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.8.0...v1.8.1)
+Contributors: Guilherme Moreira Rodrigues, lerian-studio
+
+### 📚 Documentation
+- **Updated Changelog**: The changelog has been refreshed to accurately reflect recent changes and improvements. This update helps users and contributors easily track the project's evolution, fostering transparency and collaboration within the community.
+
+### 🔧 Maintenance
+- **Streamlined Release Process**: We've reorganized the release configuration by integrating the npm plugin with semantic-release. This enhancement ensures more reliable and efficient deployments, reducing the need for manual intervention and improving overall workflow efficiency. Users can now expect a more seamless update experience.
+
+
 ## [v1.7.0-beta.4] - 2025-09-04
 
 [Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.3...v1.7.0-beta.4)

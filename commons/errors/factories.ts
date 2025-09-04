@@ -8,6 +8,7 @@ import { ErrorResponse, ErrorOptions, HTTP_STATUS_CODES, BaseError } from './int
 /**
  * Generic error creator - accepts any error structure
  */
+
 export function error(options: ErrorOptions): ErrorResponse {
   return {
     code: options.code,

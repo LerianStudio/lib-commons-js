@@ -73,12 +73,15 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: set up npmrc
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.gh_pat_for_packages }}" > ~/.npmrc
+
       - name: Install dependencies
         run: npm ci
 
       - name: Build package
         run: npm run build
-      
+
        # Install semantic-release plugins
       - name: Install missing plugin @semantic-release/exec
         run: npm install --save-dev @semantic-release/exec

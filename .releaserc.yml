@@ -19,7 +19,7 @@ plugins:
       - type: test
         release: patch
       - type: fix
-        release: patch
+        release: patch # to hotfix scenarios
       - type: refactor
         release: minor
       - type: docs
@@ -27,11 +27,13 @@ plugins:
       - breaking: true
         release: major
 
+  # Plugin to version the CHANGELOG.md
   - path: "@semantic-release/git"
     assets:
       - CHANGELOG.md
     message: "chore(release): ${nextRelease.version}\n\nChangelog atualizado."
 
+  # Plugin to publish the CHANGELOG.md as an asset in the GitHub release
   - path: "@semantic-release/github"
     assets:
       - path: CHANGELOG.md
@@ -40,15 +42,14 @@ plugins:
     failComment: false
     labels: []
 
-  - path: "@semantic-release/npm"
-  - path: "@semantic-release/exec"
+  # Plugin to perform the backmerge between the 'main' and 'develop' branches
+  - path: "@saithodev/semantic-release-backmerge"
+    backmergeBranches:
+      - from: main
+        to: develop
+    message: "chore(release): Preparations for next release [skip ci]"
 
-  # - path: "@saithodev/semantic-release-backmerge"
-  #   backmergeBranches:
-  #     - from: main
-  #       to: develop
-  #   strategy: merge
-  #   message: "chore(release): Preparations for next release [skip ci]"
+  - path: "@semantic-release/exec"
 
 branches:
   - name: main

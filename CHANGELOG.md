@@ -1,3 +1,32 @@
+## [v1.7.0-beta.4] - 2025-09-04
+
+[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.3...v1.7.0-beta.4)
+Contributors: Guilherme Moreira Rodrigues
+
+### 🔧 Maintenance
+- **Build/CI Pipeline**: The release pipeline has been revamped using a Node.js build and semantic release workflow. This improvement ensures more predictable release cycles and better integration with modern CI/CD practices, ultimately leading to more reliable software updates.
+- **Dependencies**: Updated dependencies to enhance compatibility and security. Regular updates help maintain the system's stability and reduce vulnerability risks, contributing to a secure and robust environment.
+- **Frontend**: Improved the internal build process for the frontend, resulting in faster build times and a more responsive development environment. This efficiency boost supports a smoother development workflow.
+
+
+## [v1.7.0-beta.1] - 2025-09-04
+
+[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.6.0-beta.2...v1.7.0-beta.1)
+Contributors: Jefferson Rodrigues, lerian-studio
+
+### ✨ Features
+- **Comprehensive Error Handling Module**: A new error handling module standardizes error reporting across the system. This enhancement helps developers diagnose issues more efficiently and provides users with clear, actionable error messages. It affects the `deps`, `frontend`, and `test` components, ensuring consistent error management throughout the application.
+
+### 🔄 Changes
+- **Enhanced Export Functionality**: The export feature in the frontend has been updated to integrate with the new error handling module. Users will now receive immediate feedback if an export operation fails, improving the reliability of data operations.
+
+### 📚 Documentation
+- **Changelog Updates**: Regular updates to the CHANGELOG file ensure that documentation remains current and useful for developers and users tracking project progress.
+
+### 🔧 Maintenance
+- **System Reliability Improvements**: The introduction of the error handling module marks a significant step towards improving the application's resilience and user feedback mechanisms.
+
+
 
 ## [v1.6.0-beta.2] - 2025-07-03
 

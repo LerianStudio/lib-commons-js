@@ -1,19 +1,3 @@
-## [v1.8.0] - 2025-09-04
-
-[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0...v1.8.0)
-Contributors: Guilherme Moreira Rodrigues, Jefferson Rodrigues, lerian-studio
-
-### 🔧 Maintenance
-- **Simplified Release Management**: Updated the semantic release configuration to enable the backmerge plugin and remove the npm plugin, reducing potential configuration errors and simplifying the release process.
-- **Cleaner Version Control**: The `.npmrc` file has been removed and added to `.gitignore`, preventing unnecessary files from cluttering the repository.
-- **Improved Error Handling**: Refactored the error handling module exports for better code readability and maintainability, enhancing the robustness of error management.
-- **Reusable Workflow Templates**: The release pipeline now uses a reusable workflow template, reducing complexity and increasing maintainability for smoother releases.
-
-### ✨ Improvements
-- **Streamlined Release Process**: The release pipeline has been revamped using a Node.js build and semantic release workflow. This change ensures more consistent and timely updates, enhancing the reliability of continuous integration and deployment.
-- **Enhanced Frontend Experience**: General improvements have been made to the user interface, providing a smoother and more intuitive interaction with the application.
-
-
 ## [v1.7.0-beta.4] - 2025-09-04
 
 [Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.3...v1.7.0-beta.4)

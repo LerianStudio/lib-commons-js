@@ -42,6 +42,9 @@ plugins:
     failComment: false
     labels: []
 
+  - path: "@semantic-release/npm"
+  - path: "@semantic-release/exec"
+
   # Plugin to perform the backmerge between the 'main' and 'develop' branches
   - path: "@saithodev/semantic-release-backmerge"
     backmergeBranches:
@@ -49,7 +52,7 @@ plugins:
         to: develop
     message: "chore(release): Preparations for next release [skip ci]"
 
-  - path: "@semantic-release/exec"
+
 
 branches:
   - name: main

@@ -1,15 +1,3 @@
-## [v1.8.1-beta.1] - 2025-09-04
-
-[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.5...v1.8.1-beta.1)
-Contributors: Guilherme Moreira Rodrigues, lerian-studio
-
-### 📚 Documentation
-- **Updated Changelog**: The changelog has been refreshed to accurately reflect recent updates. This helps users and developers easily track the project's evolution, understand the latest updates, and identify any new features or fixes. Keeping the documentation current ensures transparency and improves the user experience by providing clear and accessible release notes.
-
-### 🔧 Maintenance
-- **Streamlined Branch Management**: Automatic backmerge from the main branch to the develop branch has been disabled. This change enhances the development workflow by allowing more controlled and deliberate merging processes, reducing the risk of errors or conflicts. Users can expect a more stable software environment as only thoroughly reviewed changes are promoted to the main branch.
-
-
 ## [v1.7.0-beta.4] - 2025-09-04
 
 [Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.3...v1.7.0-beta.4)

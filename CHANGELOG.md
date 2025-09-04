@@ -1,3 +1,14 @@
+## [v1.7.0-beta.4] - 2025-09-04
+
+[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.3...v1.7.0-beta.4)
+Contributors: Guilherme Moreira Rodrigues
+
+### 🔧 Maintenance
+- **Build/CI Pipeline**: The release pipeline has been revamped using a Node.js build and semantic release workflow. This improvement ensures more predictable release cycles and better integration with modern CI/CD practices, ultimately leading to more reliable software updates.
+- **Dependencies**: Updated dependencies to enhance compatibility and security. Regular updates help maintain the system's stability and reduce vulnerability risks, contributing to a secure and robust environment.
+- **Frontend**: Improved the internal build process for the frontend, resulting in faster build times and a more responsive development environment. This efficiency boost supports a smoother development workflow.
+
+
 ## [v1.7.0-beta.1] - 2025-09-04
 
 [Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.6.0-beta.2...v1.7.0-beta.1)

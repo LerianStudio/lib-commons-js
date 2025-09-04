@@ -3,7 +3,6 @@
  * Entry point for all error handling utilities
  */
 
-// Export interfaces and types
 export {
   ErrorResponse,
   ErrorOptions,

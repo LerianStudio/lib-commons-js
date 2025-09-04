@@ -1,13 +1,3 @@
-## [v1.7.0-beta.5] - 2025-09-04
-
-[Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.4...v1.7.0-beta.5)
-Contributors: Guilherme Moreira Rodrigues, lerian-studio
-
-### 🔧 Maintenance
-- **Release Configuration Update**: We've improved the release process by reorganizing the `semantic-release` plugins and adding the `npm` plugin. This adjustment enhances the reliability and efficiency of our release workflow, ensuring that updates are deployed smoothly and consistently. [Components: config, deps]
-- **Changelog Update**: The CHANGELOG has been updated to provide users with the latest information about the project's updates and improvements. This ensures transparency and keeps our documentation current, helping users stay informed about what's new and what's changed. [Component: config]
-
-
 ## [v1.7.0-beta.4] - 2025-09-04
 
 [Compare changes](https://github.com/LerianStudio/lib-commons-js/compare/v1.7.0-beta.3...v1.7.0-beta.4)
